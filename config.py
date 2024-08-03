@@ -29,7 +29,7 @@ BOT_TOKEN8 = getenv("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = getenv("BOT_TOKEN9", default=None)
 
 
-SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6735289775").split()))
+SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="5959548791").split()))
 for x in SAPNA:
     SUDO_USERS.append(x)
 OWNER_ID = int(getenv("OWNER_ID", default="5959548791"))
