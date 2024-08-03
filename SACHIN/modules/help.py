@@ -127,7 +127,16 @@ async def helpback(event):
         await event.answer("✦ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ xsᴘᴀᴍ ʙᴏᴛ, ʙʏ ~ @roy_editx", cache_time=0, alert=True)
 
 
-@X1.on(events.CallbackQuery(pattern=r"spam"))
+@SACHIN0.on(events.CallbackQuery(pattern=r"spam"))
+@SACHIN1.on(events.CallbackQuery(pattern=r"spam"))
+@SACHIN2.on(events.CallbackQuery(pattern=r"spam"))
+@SACHIN3.on(events.CallbackQuery(pattern=r"spam"))
+@SACHIN4.on(events.CallbackQuery(pattern=r"spam"))
+@SACHIN5.on(events.CallbackQuery(pattern=r"spam"))
+@SACHIN6.on(events.CallbackQuery(pattern=r"spam"))
+@SACHIN7.on(events.CallbackQuery(pattern=r"spam"))
+@SACHIN8.on(events.CallbackQuery(pattern=r"spam"))
+@SACHIN9.on(events.CallbackQuery(pattern=r"spam"))
 async def help_spam(event):
     if event.query.user_id in SUDO_USERS:    
         await event.edit(spam_msg,
@@ -137,7 +146,16 @@ async def help_spam(event):
         await event.answer("✦ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ xsᴘᴀᴍ ʙᴏᴛ, ʙʏ ~ @roy_editx", cache_time=0, alert=True)
 
 
-@X1.on(events.CallbackQuery(pattern=r"raid"))
+@SACHIN0.on(events.CallbackQuery(pattern=r"raid"))
+@SACHIN1.on(events.CallbackQuery(pattern=r"raid"))
+@SACHIN2.on(events.CallbackQuery(pattern=r"raid"))
+@SACHIN3.on(events.CallbackQuery(pattern=r"raid"))
+@SACHIN4.on(events.CallbackQuery(pattern=r"raid"))
+@SACHIN5.on(events.CallbackQuery(pattern=r"raid"))
+@SACHIN6.on(events.CallbackQuery(pattern=r"raid"))
+@SACHIN7.on(events.CallbackQuery(pattern=r"raid"))
+@SACHIN8.on(events.CallbackQuery(pattern=r"raid"))
+@SACHIN9.on(events.CallbackQuery(pattern=r"raid"))
 async def help_raid(event):
     if event.query.user_id in SUDO_USERS:
         await event.edit(raid_msg,
@@ -147,7 +165,16 @@ async def help_raid(event):
         await event.answer("✦ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ xsᴘᴀᴍ ʙᴏᴛ, ʙʏ ~ @roy_editx", cache_time=0, alert=True)
 
 
-@X1.on(events.CallbackQuery(pattern=r"extra"))
+@SACHIN0.on(events.CallbackQuery(pattern=r"extra"))
+@SACHIN1.on(events.CallbackQuery(pattern=r"extra"))
+@SACHIN2.on(events.CallbackQuery(pattern=r"extra"))
+@SACHIN3.on(events.CallbackQuery(pattern=r"extra"))
+@SACHIN4.on(events.CallbackQuery(pattern=r"extra"))
+@SACHIN5.on(events.CallbackQuery(pattern=r"extra"))
+@SACHIN6.on(events.CallbackQuery(pattern=r"extra"))
+@SACHIN7.on(events.CallbackQuery(pattern=r"extra"))
+@SACHIN8.on(events.CallbackQuery(pattern=r"extra"))
+@SACHIN9.on(events.CallbackQuery(pattern=r"extra"))
 async def help_extra(event):
     if event.query.user_id in SUDO_USERS:
         await event.edit(extra_msg,
