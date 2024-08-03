@@ -184,7 +184,7 @@ async def mraid(e):
             print(e)
 
 
-@SACHIN0.on(events.NewMessage(incoming=True, pattern=r"\%sraid(?: |$)(.*)" % hl))
+@SACHIN0.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
 @SACHIN1.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
 @SACHIN2.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
 @SACHIN3.on(events.NewMessage(incoming=True, pattern=r"\%ssraid(?: |$)(.*)" % hl))
