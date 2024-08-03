@@ -1,0 +1,8 @@
+telethon
+cryptg
+heroku3
+pyrogram
+tgcrypto
+flask
+flask_restful
+gunicorn
