@@ -104,7 +104,16 @@ spam_msg = f"""
 """                     
            
            
-@X1.on(events.CallbackQuery(pattern=r"help_back"))
+@SACHIN0.on(events.CallbackQuery(pattern=r"help_back"))
+@SACHIN1.on(events.CallbackQuery(pattern=r"help_back"))
+@SACHIN2.on(events.CallbackQuery(pattern=r"help_back"))
+@SACHIN3.on(events.CallbackQuery(pattern=r"help_back"))
+@SACHIN4.on(events.CallbackQuery(pattern=r"help_back"))
+@SACHIN5.on(events.CallbackQuery(pattern=r"help_back"))
+@SACHIN6.on(events.CallbackQuery(pattern=r"help_back"))
+@SACHIN7.on(events.CallbackQuery(pattern=r"help_back"))
+@SACHIN8.on(events.CallbackQuery(pattern=r"help_back"))
+@SACHIN9.on(events.CallbackQuery(pattern=r"help_back"))
 async def helpback(event):
     if event.query.user_id in SUDO_USERS:    
         await event.edit(
