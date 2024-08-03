@@ -8,16 +8,16 @@ from telethon import events
 from datetime import datetime
 
 
-@SACHIN0.on(events.NewMessage(incoming=True, pattern=r"\%sisping(?: |$)(.*)" % hl))
-@SACHIN1.on(events.NewMessage(incoming=True, pattern=r"\%sisping(?: |$)(.*)" % hl))
-@SACHIN2.on(events.NewMessage(incoming=True, pattern=r"\%sisping(?: |$)(.*)" % hl))
-@SACHIN3.on(events.NewMessage(incoming=True, pattern=r"\%sisping(?: |$)(.*)" % hl))
-@SACHIN4.on(events.NewMessage(incoming=True, pattern=r"\%sisping(?: |$)(.*)" % hl))
-@SACHIN5.on(events.NewMessage(incoming=True, pattern=r"\%sisping(?: |$)(.*)" % hl))
-@SACHIN6.on(events.NewMessage(incoming=True, pattern=r"\%sisping(?: |$)(.*)" % hl))
-@SACHIN7.on(events.NewMessage(incoming=True, pattern=r"\%sisping(?: |$)(.*)" % hl))
-@SACHIN8.on(events.NewMessage(incoming=True, pattern=r"\%sisping(?: |$)(.*)" % hl))
-@SACHIN9.on(events.NewMessage(incoming=True, pattern=r"\%sisping(?: |$)(.*)" % hl))
+@SACHIN0.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@SACHIN1.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@SACHIN2.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@SACHIN3.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@SACHIN4.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@SACHIN5.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@SACHIN6.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@SACHIN7.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@SACHIN8.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+@SACHIN9.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 async def ping(e):
     if e.sender_id == enums.ChatMemberStatus.ADMINISTRATOR or enums.ChatMemberStatus.OWNER:
         start = datetime.now()
