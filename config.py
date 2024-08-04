@@ -13,22 +13,32 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 # VALUES REQUIRED FOR SANATANI BOTS
 
-# -------------[ API ID ]-------------
+# -------------[ API ID | FROM TELEGRAM ]-------------
+
 API_ID = 18136872
 
-# -------------[ API HASH ]-------------
+# -------------[ API HASH | FROM TELEGRAM ]-------------
+
 API_HASH = "312d861b78efcd1b02183b2ab52a83a4"
 
-# -------------[ BOT COMMAND ]-------------
+# -------------[ BOT COMMAND | !,&,!,?,.,:,@,#,₹,",',:,;, ]-------------
+
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
 
-# -------------[ HEROKU APP NAME ]-------------
+# -------------[ HEROKU APP NAME | FROM HEROKU ]-------------
+
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-# -------------[ HEROKU API KEY]-------------
+# -------------[ HEROKU API KEY | FROM HEROKU ]-------------
+
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
-# -------------[ TG - 10 BOT TOKEN ]-------------
+# -------------[ MONGO BD | DATABASE URL ]-------------
+
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SachinSanatani:SACHINxSANATANI@sanatani.bnmsfbd.mongodb.net/?retryWrites=true&w=majority&appName=Sanatani")
+
+# -------------[ 10 BOT TOKEN | FROM TELEGRAM ]-------------
+
 BOT_TOKEN0 = getenv("BOT_TOKEN0", default="6761879056:AAHkWE1f8gfrI3cPKGKK5cC2YM_BC6vHDzA")
 BOT_TOKEN1 = getenv("BOT_TOKEN1", default="7411670289:AAFmfvCFTdHh8e3lseciDtwPIS7d52CcBuM")
 BOT_TOKEN2 = getenv("BOT_TOKEN2", default="6828317510:AAHjnL2RVxJcLNS9uiMrxNSxiJ_F4bH4CbU")
@@ -40,17 +50,19 @@ BOT_TOKEN7 = getenv("BOT_TOKEN7", default="6816073538:AAE3wOcPC8wQJMMqunI8F1GEFl
 BOT_TOKEN8 = getenv("BOT_TOKEN8", default="7246724288:AAEb7L8lwvsmD0rb7n7TF1X50cAoe6oQD5c")
 BOT_TOKEN9 = getenv("BOT_TOKEN9", default="7063268907:AAER728IwjbgTdGwWqk-eKeRDdTZOZxxDFU")
 
-# -------------[ SUDO USER'S]-------------
+# -------------[ SUDO USER'S | BOT USER'S ]-------------
+
 SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="5959548791").split()))
 for x in SAPNA:
     SUDO_USERS.append(x)
 
-# -------------[ OWNER I'D ]-------------
+# -------------[ OWNER I'D | THE BOT OWNER ]-------------
+
 OWNER_ID = int(getenv("OWNER_ID", default="5959548791"))
 SUDO_USERS.append(OWNER_ID)
 
 
-# ------------- CLIENTS -------------
+# -------------[ CLIENTS ]-------------
 
 SACHIN0 = TelegramClient('SACHIN0', API_ID, API_HASH).start(bot_token=BOT_TOKEN0)
 SACHIN1 = TelegramClient('SACHIN1', API_ID, API_HASH).start(bot_token=BOT_TOKEN1)
