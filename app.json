@@ -1,6 +1,6 @@
 {
-    "name": "SPAM BOT",
-    "logo": "https://telegra.ph//file/9e8ce3092848a1bc5d9d6.jpg",
+    "name": "❖ | sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ | ❖",
+    "logo": "https://telegra.ph/file/fc0c1b85d1f99b9a21043.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,32 +8,82 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/SACHINxSANATANI/SACHIN-SAPNA",
+    "repository": "https://github.com/VARC9210/STORM",
     "env": {
       "BOT_TOKEN": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN2": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN3": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN4": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN5": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN6": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN7": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN8": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN9": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN10": {
+        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
         "value": "",
         "required": true
       },
       "CMD_HNDLR": {
-        "description": "Custom command handler.",
-        "value": "/",
+        "description": "ᴄᴜꜱᴛᴏᴍ ᴄᴏᴍᴍᴀɴᴅ ʜᴀɴᴅʟᴇʀ",
+        "value": ".",
+        "required": false
+      },
+      "SUDO_USERS": {
+        "description": "ꜱᴜᴅᴏ ᴜꜱᴇʀꜱ ɪᴅ ꜱᴘᴀᴄᴇ ʙʏ ꜱᴘᴀᴄᴇ",
+        "value": "5959548791",
         "required": false
       },
       "OWNER_ID": {
-        "description": "Owner Id",
-        "value": "",
+        "description": "ᴏᴡɴᴇʀ ɪᴅ",
+        "value": "6735289775",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku api key to update your bot",
+        "description": "ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘɪ ᴋᴇʏ ᴛᴏ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ʙᴏᴛ",
         "value": "",
-        "required": false
+        "required": false 
       },
       "HEROKU_APP_NAME": {
-        "description": "Your app name to Update your bot",
+        "description": "ʏᴏᴜʀ ᴀᴘᴘ ɴᴀᴍᴇ ᴛᴏ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ʙᴏᴛ",
         "value": "",
-        "required": false
+        "required": false  
       }
     },
   "buildpacks": [

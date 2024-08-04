@@ -1,5 +1,9 @@
 build:
   docker:
-    Roy: Dockerfile
+    ItzSanatani: Dockerfile
 run:
-  Roy: python3 -m main.py
+  ItzSanatani: python3 -m main.py
+
+
+# ©️ @SACHIN_OWNER || @V_VIP_OWNER
+
