@@ -89,9 +89,9 @@ async def broadcast(event):
         for user in users:
             try:
                 if reply:
-                    await X1.send_message(user['id'], message or reply.text, file=reply.media)
+                    await SACHIN0.send_message(user['id'], message or reply.text, file=reply.media)
                 else:
-                    await X1.send_message(user['id'], message)
+                    await SACHIN0.send_message(user['id'], message)
                 user_count += 1
             except ForbiddenError:
                 pass  # Ignore if the bot is blocked
@@ -101,9 +101,9 @@ async def broadcast(event):
         for group in groups:
             try:
                 if reply:
-                    await X1.send_message(group['id'], message or reply.text, file=reply.media)
+                    await SACHIN0.send_message(group['id'], message or reply.text, file=reply.media)
                 else:
-                    await X1.send_message(group['id'], message)
+                    await SACHIN0.send_message(group['id'], message)
                 group_count += 1
             except ForbiddenError:
                 pass  # Ignore if the bot is removed from the group
